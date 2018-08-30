@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-
 x-kinRank: "7"
 x-alexaRank: "49197"
 tags: Charity Navigator
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/apis.md
 specificationVersion: "0.14"
 apis:
@@ -42,6 +42,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationsein-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationsein-get-openapi.md
+- name: CharityNavigatorDataAPI - Get Organizations Ein Ratings
+  x-api-slug: organizationseinratings-get
+  description: |-
+    Retrieve all Charity Navigator ratings for a single organization. <br/>
+    ![Content
+    Subscription](https://cdn2.hubspot.net/hubfs/597611/CharityNavigator/FA-Data-Table-16.png
+    "Included with the paid Content Subscription.")
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
+  humanURL: http://www.charitynavigator.org
+  baseURL: https://api.data.charitynavigator.org//v2
+  tags: Charities, Giving, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationseinratings-get-openapi.md
 - name: CharityNavigatorDataAPI - Get Organizations Ein Ratings Rating
   x-api-slug: organizationseinratingsratingid-get
   description: |-
@@ -79,6 +93,34 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationseinadvisories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationseinadvisories-get-openapi.md
+- name: CharityNavigatorDataAPI - Get Organizations Ein Advisories Advisory
+  x-api-slug: organizationseinadvisoriesadvisoryid-get
+  description: |-
+    Retrieve full details of a single Advisory, under a given organization. An
+    advisory is a cautionary communication from Charity Navigator, advising of
+    unusual events or behavior related to a known organization.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
+  humanURL: http://www.charitynavigator.org
+  baseURL: https://api.data.charitynavigator.org//v2
+  tags: Charities, Giving, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/organizationseinadvisoriesadvisoryid-get-openapi.md
+- name: CharityNavigatorDataAPI - Get Lists
+  x-api-slug: lists-get
+  description: |-
+    Retrieve a set of Lists defined in Charity Navigator. Each entry in this
+    collection is a curated or generated list of organizations, published by Charity
+    Navigator. <br/> ![Content
+    Subscription](https://cdn2.hubspot.net/hubfs/597611/CharityNavigator/FA-Data-Table-16.png
+    "Included with the paid Content Subscription.")
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg
+  humanURL: http://www.charitynavigator.org
+  baseURL: https://api.data.charitynavigator.org//v2
+  tags: Charities, Giving, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/charity-navigator/master/_listings/charity-navigator/lists-get-openapi.md
 - name: CharityNavigatorDataAPI - Get Lists List
   x-api-slug: listslistid-get
   description: |-
